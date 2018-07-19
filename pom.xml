@@ -5,7 +5,7 @@
 
     <groupId>com.github.styner9</groupId>
     <artifactId>jvm-family-base</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>pom</packaging>
 
     <name>Parent POM for JVM Languages</name>
