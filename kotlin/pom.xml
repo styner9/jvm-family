@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.github.styner9</groupId>
         <artifactId>jvm-family-java</artifactId>
-        <version>0.0.2</version>
+        <version>0.0.3</version>
         <relativePath>../java</relativePath>
     </parent>
 
@@ -250,4 +250,11 @@
             </build>
         </profile>
     </profiles>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>jcenter</id>
+            <url>https://jcenter.bintray.com/</url>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
