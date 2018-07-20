@@ -5,12 +5,12 @@
 
     <groupId>com.github.styner9</groupId>
     <artifactId>jvm-family-base</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <packaging>pom</packaging>
 
     <name>Parent POM for JVM Languages</name>
 
-    <url>https://github.com/styner9/parent-pom</url>
+    <url>https://github.com/styner9/jvm-family</url>
 
     <modules>
         <module>java</module>
@@ -21,7 +21,7 @@
     <properties>
         <bintray.username>styner9</bintray.username>
         <bintray.repository>utils</bintray.repository>
-        <bintray.package>parent-pom</bintray.package>
+        <bintray.package>jvm-family</bintray.package>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.report.sourceEncoding>UTF-8</project.report.sourceEncoding>
