@@ -24,6 +24,7 @@
         <dokka.jdkVersion>8</dokka.jdkVersion>
 
         <kotlin.compiler.jsr305>strict</kotlin.compiler.jsr305>
+        <kotlin.compiler.jvmDefault>compatibility</kotlin.compiler.jvmDefault>
     </properties>
 
     <dependencies>
@@ -64,6 +65,7 @@
                         <languageVersion>${kotlin.api.version}</languageVersion>
                         <args>
                             <arg>-Xjsr305=${kotlin.compiler.jsr305}</arg>
+                            <arg>-Xjvm-default=${kotlin.compiler.jvmDefault}</arg>
                         </args>
                     </configuration>
                     <executions>
